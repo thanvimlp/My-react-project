@@ -1,6 +1,6 @@
-# MindWare Landing Page
+# MindNest Landing Page
 
-A responsive landing page for MindWare, a mental health-focused service, combining a soothing pink-and-blue color theme.  
+A responsive landing page for MindNest, a mental health-focused service, combining a soothing pink-and-blue color theme.  
 The page includes sections for features, mental health tools, and a footer.
 
 ---
@@ -22,7 +22,7 @@ The page includes sections for features, mental health tools, and a footer.
 ## 🚀 Features
 
 - **Responsive Design** — Works across mobile, tablet, and desktop.
-- **Pink & Blue Theme** — “MIND” styled in pink and “WARE” in blue.
+- **Pink & Blue Theme** — “MIND” styled in pink and “NEST” in blue.
 - **Features Section** — Highlights key offerings in a 3-column layout.
 - **Tools Section** — Displays cards for meditation, yoga, therapy, and more.
 - **Footer** — Simple and minimal footer with copyright.
