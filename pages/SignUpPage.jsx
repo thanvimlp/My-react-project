@@ -1,7 +1,12 @@
 import React from "react";
+import { useState } from "react";
 import mindImage3 from "../src/assets/images/mindnes_3.png";
 import { Link } from "react-router-dom";
 const SignUpPage = () => {
+  const [fullName, setFullName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
   return (
     <>
       <div className="flex flex-col md:flex-row min-h-screen">
@@ -30,21 +35,29 @@ const SignUpPage = () => {
               type="text"
               placeholder="Full Name"
               className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-300"
+              value={fullName}
+              onChange={(e) => setFullName(e.target.value)}
             />
             <input
               type="email"
               placeholder="Email"
               className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-300"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
             />
             <input
               type="password"
               placeholder="Password"
               className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-300"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
             />
             <input
               type="password"
               placeholder="Confirm Password"
               className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-300"
+              value={confirmPassword}
+              onChange={(e) => setConfirmPassword(e.target.value)}
             />
 
             <button className="w-full bg-pink-500 text-white py-2 rounded-md hover:bg-pink-600 transition">
