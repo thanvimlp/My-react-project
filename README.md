@@ -1,12 +1,43 @@
-# React + Vite
+# MindWare Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive landing page for MindWare, a mental health-focused service, combining a soothing pink-and-blue color theme.  
+The page includes sections for features, mental health tools, and a footer.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
 
-## Expanding the ESLint configuration
+| ![Screenshot 1](./screenshots/screenshot1.png) |
+![Screenshot 2](./screenshots/screenshot2.png) |
+![Screenshot 3](./screenshots/screenshot3.png) |
+| ---------------------------------------------- | ---------------------------------------------- | ---------------------------------------------- |
+| ![Screenshot 4](./screenshots/screenshot4.png) |
+![Screenshot 5](./screenshots/screenshot5.png) | 
+![Screenshot 6](./screenshots/screenshot6.png) |
+| ![Screenshot 7](./screenshots/screenshot7.png) |                                                |                                                |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+---
+
+## 🚀 Features
+
+- **Responsive Design** — Works across mobile, tablet, and desktop.
+- **Pink & Blue Theme** — “MIND” styled in pink and “WARE” in blue.
+- **Features Section** — Highlights key offerings in a 3-column layout.
+- **Tools Section** — Displays cards for meditation, yoga, therapy, and more.
+- **Footer** — Simple and minimal footer with copyright.
+
+---
+
+## 🛠 Tech Stack
+
+- **React** — Frontend framework
+- **React Router v7.1.1** — For navigation
+- **Tailwind CSS** — Styling and responsive design
+- **Static Data** — For images and tool descriptions
+
+---
+
+## 📂 Project Structure
+
